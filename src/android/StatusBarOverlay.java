@@ -9,8 +9,8 @@ import android.view.ViewGroup;
 import android.view.WindowManager;
 
 // http://stackoverflow.com/questions/25284233/prevent-status-bar-for-appearing-android-modified
-public class CustomViewGroup extends ViewGroup {
-    public CustomViewGroup(Context context) {
+public class StatusBarOverlay extends ViewGroup {
+    public StatusBarOverlay(Context context) {
         super(context);
     }
 
@@ -42,7 +42,7 @@ public class CustomViewGroup extends ViewGroup {
         localLayoutParams.height = (int) (50 * activity.getResources().getDisplayMetrics().scaledDensity);
         localLayoutParams.format = PixelFormat.TRANSPARENT;
 
-        CustomViewGroup view = new CustomViewGroup(activity);
+        StatusBarOverlay view = new StatusBarOverlay(activity);
 
         manager.addView(view, localLayoutParams);
     }

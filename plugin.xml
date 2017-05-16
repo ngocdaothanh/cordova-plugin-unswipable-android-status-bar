@@ -46,5 +46,6 @@
         </config-file>
 
         <source-file src="src/android/UnswipableAndroidStatusBarPlugin.java" target-dir="src/ngocdaothanh/cordova/plugins" />
+        <source-file src="src/android/StatusBarOverlay.java" target-dir="src/ngocdaothanh/cordova/plugins" />
     </platform>
 </plugin>
