@@ -41,6 +41,10 @@
             </feature>
         </config-file>
 
+        <config-file target="AndroidManifest.xml" parent="/manifest">
+            <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+        </config-file>
+
         <source-file src="src/android/UnswipableAndroidStatusBarPlugin.java" target-dir="src/ngocdaothanh/cordova/plugins" />
     </platform>
 </plugin>
