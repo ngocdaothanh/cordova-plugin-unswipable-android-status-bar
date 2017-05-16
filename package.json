@@ -1,0 +1,29 @@
+{
+  "name": "cordova-plugin-unswipable-android-status-bar",
+  "version": "1.0.0",
+  "description": "Cordova plugin to prevent Android status bar to be swiped down to display system quick menu",
+  "cordova": {
+    "id": "cordova-plugin-unswipable-android-status-bar",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ngocdaothanh/cordova-plugin-unswipable-android-status-bar.git"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "status",
+    "bar",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Ngoc Dao",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/ngocdaothanh/cordova-plugin-unswipable-android-status-bar/issues"
+  },
+  "homepage": "https://github.com/ngocdaothanh/cordova-plugin-unswipable-android-status-bar"
+}
